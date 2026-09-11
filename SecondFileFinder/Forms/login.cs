@@ -18,7 +18,7 @@ namespace SecondFileFinder.Forms
         private void button1_Click(object sender, EventArgs e)
         {
             string pass=passTextBox.Text;
-            if (pass == "1280")
+            if (pass == "1234")
             {
                 mainPage mainPage = new mainPage();
                 mainPage.Show();
